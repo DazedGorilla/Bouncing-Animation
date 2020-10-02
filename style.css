@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+.logo{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  border-radius: 50%;
+  animation: bounce 1s linear infinite;
+}
+@keyframes bounce{
+  from{
+    transform: translate(0,0px);
+  }
+  65%{
+    transform: translate(0,50px);
+  }
+  to{
+    transform: translate(0,-0px);
+  }
+}
